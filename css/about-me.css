@@ -1,0 +1,44 @@
+body{
+            font-family: Arial;
+        }        
+        .background {
+            background-image: url('/image/light.jpg');
+            background-size: cover;
+            background-position: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .background h1 {
+            text-align: center;
+            
+        }
+        .container {
+            display: flex;
+            max-width: 800px;
+            margin: 30px auto;
+            align-items: flex-start;
+            gap: 20px;
+            
+        }
+        .left img {
+            width: 200px;
+            height: auto; 
+        }
+        
+        .background h2 {
+            text-align: center;
+        }
+        .artist  {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+            margin-top: 20;
+        }
+        .artist-block {
+            text-align: center;
+        }
+        .artist-block img {
+            width: 250px;
+
+        }
