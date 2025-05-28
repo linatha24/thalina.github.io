@@ -2,7 +2,7 @@ body{
             font-family: Arial;
         }        
         .background {
-            background-image: url('/image/light.jpg');
+            background-image: url('/images/light.jpg');
             background-size: cover;
             background-position: center;
             min-height: 100vh;
