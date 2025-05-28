@@ -5,14 +5,13 @@ body {
             
         }
         .background {
-            background: url('/images/download.jpg');
-            width: 50;
+            background: url('../images/download.jpg') no-repeat center center;
+            background-size: cover;
             height: 100vh;
             text-align: center;
             display: flex;
             flex-direction: column;
             justify-content: center;
-  
         }
         .navbar {
             position: absolute;
